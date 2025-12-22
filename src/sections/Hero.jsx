@@ -14,7 +14,7 @@ results driven webs/apps`;
       className="flex flex-col justify-end min-h-screen w-full overflow-hidden"
     >
       <AnimatedHeaderSection
-        subTitle={"404 No Bugs Found"}
+        subTitle={"Let's build something crazy"}
         title={"  Ravi Kumar"}
         text={text}
         textColor={"text-black"}

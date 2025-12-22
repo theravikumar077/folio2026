@@ -65,8 +65,8 @@ export const projects = [
     description:
       "An AI powered chatbot designed to make conversations smarter and more interactive ,with image upload feature.",
     href: "https://rudee.netlify.app/",
-    image: "/assets/projects/Rudee.png",
-    bgImage: "/assets/projects/Rudee.png",
+    image: "/assets/projects/rudee.png",
+    bgImage: "/assets/projects/rudee.png",
     frameworks: [
       { id: 1, name: "MERN stack" },
       { id: 2, name: "google oauth" },
@@ -80,9 +80,9 @@ export const projects = [
     name: "Library Management System (LMS)",
     description:
       "A Library Management System (LMS) is software that automates and streamlines a library's daily operations, managing everything from cataloging books and resources to handling member accounts, tracking borrowing/returns, and managing inventory, making it easier for librarians and users to find, manage, and access information efficiently",
-    href: "https://lmsbyrave.netlify.app/",
-    image: "/assets/projects/brainium.png",
-    bgImage: "/assets/projects/brainium.png",
+    href: "https://lmslibrary.netlify.app/",
+    image: "/assets/projects/lms.png",
+    bgImage: "/assets/projects/lms.png",
     frameworks: [
       { id: 1, name: "MERN stack" },
       { id: 2, name: "google oauth" },
@@ -93,27 +93,12 @@ export const projects = [
   },
   {
     id: 3,
-    name: "Biblion Books - Online book reading platform",
-    description:
-      "Biblion Books is an online book reading platform that allows users to read books, access book summaries, and discover new books based on their reading history and preferences.",
-    href: "https://biblionbooks.netlify.app/",
-    image: "/assets/projects/penportal.png",
-    bgImage: "/assets/projects/penportal.png",
-    frameworks: [
-      { id: 1, name: "MERN stack" },
-      { id: 2, name: "Ai chatbot" },
-      { id: 3, name: "Socket.io" },
-      { id: 4, name: "google oauth" },
-    ],
-  },
-  {
-    id: 4,
     name: "Alumni Hub - Student Management System",
     description:
       "Alumni Hub is a student management system that helps schools and universities manage their student data, including attendance, grades, and assignments. It also provides a platform for students to access their grades and assignments, and for teachers to manage their classes.",
-    href: "https://ai-moody-palyer.vercel.app/",
-    image: "/assets/projects/project1.png",
-    bgImage: "/assets/projects/project1.png",
+    href: "https://alumnihub071.netlify.app/",
+    image: "/assets/projects/alumni.png",
+    bgImage: "/assets/projects/alumni.png",
     frameworks: [
       { id: 1, name: "React" },
       { id: 2, name: "face-api.js" },
@@ -123,18 +108,35 @@ export const projects = [
     ],
   },
   {
-    id: 5,
+    id: 4,
     name: "Ruddy Notes - AI-Powered Note-taking Assistant",
     description:
       "Ruddy Notes is an AI-powered note-taking assistant that helps users create, organize, and manage their notes. It uses natural language processing to extract key information from text and images, and provides a searchable database of notes for easy access.",
     href: "https://ruddynotes.netlify.app/",
-    image: "/assets/projects/project2.png",
-    bgImage: "/assets/projects/project2.png",
+    image: "/assets/projects/notes.png",
+    bgImage: "/assets/projects/notes.png",
     frameworks: [
       { id: 1, name: "React" },
       { id: 2, name: "TypeScript" },
       { id: 3, name: "reduxtoolkit" },
       { id: 4, name: "Tailwind CSS" },
+    ],
+  },
+  
+  
+  {
+    id: 5,
+    name: "Biblion Books - Online book reading platform",
+    description:
+      "Biblion Books is an online book reading platform that allows users to read books, access book summaries, and discover new books based on their reading history and preferences.",
+    href: "https://biblionbooks.netlify.app/",
+    image: "/assets/projects/books.png",
+    bgImage: "/assets/projects/books.png",
+    frameworks: [
+      { id: 1, name: "MERN stack" },
+      { id: 2, name: "Ai chatbot" },
+      { id: 3, name: "Socket.io" },
+      { id: 4, name: "google oauth" },
     ],
   },
  
