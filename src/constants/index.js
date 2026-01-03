@@ -61,12 +61,12 @@ export const servicesData = [
 export const projects = [
    {
     id: 1,
-    name: "Rudee the ChatBot",
+    name: "The Nexus Hub",
     description:
-      "An AI powered chatbot designed to make conversations smarter and more interactive ,with image upload feature.",
-    href: "https://rudee.netlify.app/",
-    image: "/assets/projects/rudee.png",
-    bgImage: "/assets/projects/rudee.png",
+      "NEXUS is a developer hub where you can create repositories, upload files, manage and edit code, and discover other developers.",
+    href: "https://thenexushub.lovable.app/",
+    image: "/assets/projects/nexus.png",
+    bgImage: "/assets/projects/nexus.png",
     frameworks: [
       { id: 1, name: "MERN stack" },
       { id: 2, name: "google oauth" },
@@ -126,12 +126,12 @@ export const projects = [
   
   {
     id: 5,
-    name: "Biblion Books - Online book reading platform",
+    name: "Rudee the ChatBot",
     description:
-      "Biblion Books is an online book reading platform that allows users to read books, access book summaries, and discover new books based on their reading history and preferences.",
-    href: "https://biblionbooks.netlify.app/",
-    image: "/assets/projects/books.png",
-    bgImage: "/assets/projects/books.png",
+      "An AI powered chatbot designed to make conversations smarter and more interactive ,with image upload feature.",
+    href: "https://rudee.netlify.app/",
+    image: "/assets/projects/rudee.png",
+    bgImage: "/assets/projects/rudee.png",
     frameworks: [
       { id: 1, name: "MERN stack" },
       { id: 2, name: "Ai chatbot" },
