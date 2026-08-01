@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" rx="0" fill="#000000" />
+  <circle cx="256" cy="256" r="175.2" fill="none" stroke="#ffffff" stroke-width="15.36" opacity="0.2" />
+  <circle cx="256" cy="256" r="163.2" fill="none" stroke="#3b82f6" stroke-dasharray="51.2 25.6" stroke-width="10.24" />
+  <text x="50%" y="54%" font-family="system-ui, -apple-system, sans-serif" font-weight="900" font-size="194.56px" fill="#ffffff" text-anchor="middle" dominant-baseline="middle" letter-spacing="-0.05em">RK</text>
+  <circle cx="368.64" cy="163.84" r="25.6" fill="#60a5fa" />
+</svg>

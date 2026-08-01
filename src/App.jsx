@@ -9,16 +9,27 @@ import Works from "./sections/Works";
 import ContactSummary from "./sections/ContactSummary";
 import Contact from "./sections/Contact";
 import { useProgress } from "@react-three/drei";
+import InstallPWA from "./components/InstallPWA";
+import UpdateNotification from "./components/UpdateNotification";
+import { registerServiceWorker } from "./utils/swRegister";
 
 const App = () => {
   const { progress } = useProgress();
   const [isReady, setIsReady] = useState(false);
+  const [swRegistration, setSwRegistration] = useState(null);
 
   useEffect(() => {
     if (progress === 100) {
       setIsReady(true);
     }
   }, [progress]);
+
+  useEffect(() => {
+    // Register Service Worker in production / PWA mode
+    registerServiceWorker((reg) => {
+      setSwRegistration(reg);
+    });
+  }, []);
 
   return (
     <ReactLenis
@@ -52,6 +63,10 @@ const App = () => {
         <ContactSummary />
         <Contact />
       </div>
+
+      {/* PWA Floating Install & Update Notification UI */}
+      <InstallPWA />
+      <UpdateNotification registration={swRegistration} />
     </ReactLenis>
   );
 };
